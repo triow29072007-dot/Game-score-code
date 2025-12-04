@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin: 100px
+}
+
+.nomer{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    gap: 10px;
+    text-decoration: underline;
+
+}
+
+.kalkulator button{
+    font-size: 30px;
+    margin: 20px
+}
+
+.hasil{
+    font-size: 30px;
+}
