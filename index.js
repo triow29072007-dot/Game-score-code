@@ -7,22 +7,22 @@ document.getElementById("num2-el") .textContent = num2
 function tambah() {
     let tambah = num1 + num2
     console.log(tambah)
-    document.getElementById("sum-el") .textContent = "Sum: " + tambah
+    document.getElementById("sum-el") .textContent = "Jumlah: " + tambah
 }
 function kurang() {
     let kurang = num1 - num2
     console.log(kurang)
-    document.getElementById("sum-el") .textContent = "Sum: " + kurang
+    document.getElementById("sum-el") .textContent = "Jumlah: " + kurang
 }
 function bagi() {
     let bagi = num1 / num2
     console.log(bagi)
-    document.getElementById("sum-el") .textContent = "Sum: " + bagi
+    document.getElementById("sum-el") .textContent = "Jumlah: " + bagi
 }
 function kali() {
     let kali = num1 * num2
     console.log(kali)
-    document.getElementById("sum-el") .textContent = "Sum: " + kali
+    document.getElementById("sum-el") .textContent = "Jumlah: " + kali
 }
 
 
